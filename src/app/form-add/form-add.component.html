@@ -1,0 +1,20 @@
+<div class="example-container">
+  <label>
+Enter Name:
+<mat-form-field  class="alert alert-danger">
+<input matInput type="text" [(ngModel)]="enteredName" placeholder="Input" required>
+</mat-form-field>
+</label>
+<label>
+Enter Age:
+<mat-form-field>
+<input  matInput type="text" [(ngModel)]="enteredAge" placeholder="Input" required>
+</mat-form-field>
+</label>
+
+
+  <button mat-raised-button color="primary" type="submit" (click)="onAddName()">Submit</button>
+ <p>{{addNew}}</p> <p>{{addAge}}</p>
+</div>
+
+

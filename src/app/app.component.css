@@ -1,0 +1,13 @@
+.container {
+  width: 500%;
+
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+
+
+table.mat-table {
+  height: 300px;
+  width: 10%;
+}
